@@ -1,0 +1,282 @@
+body {
+    padding: 0;
+    margin: 0 !important;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_circle {
+    position: absolute;
+    top: 5.5rem;
+    z-index: -1;
+}
+
+.bottom_circle {
+    position: absolute;
+    bottom: 5rem;
+    z-index: -1;
+    right: 0;
+}
+
+.mobile_frame {
+    background-color: #242423;
+    width: 25vw;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.top_nav {
+    padding: 10px;
+    background-color: #242423;
+    height: 60px;
+}
+
+.top_nav_btn {
+    background-color: #242423;
+    width: 20%;
+    font-size:10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.home_container {
+    padding: 10px 2rem;
+}
+
+.user_card {
+    background-color: #B0BF1A;
+    border-radius: 4px;
+    min-height: 10vh;
+    /*border: 1px solid #fff;*/
+    padding: 10px 0;
+}
+
+.top_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 0;
+}
+
+.top_info h3 {
+    font-size: 20px;
+    color: #242423;
+    font-weight: bold;
+    margin-bottom: 1px !important;
+    margin-top: 0;
+}
+
+.top_info p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0.8rem;
+}
+
+.fun_facts {
+    background-color: #242423;
+    padding: 10px 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 25px;
+    width: 85px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.horizontal_line {
+    opacity: 0.4;
+    border: 1px solid #97a40c;
+    width: 95%;
+}
+
+.info_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 10px;
+}
+
+.last_order p {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #242423;
+    font-weight: bold;
+}
+
+.last_order div {
+    background-color: #97a40c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.ranking_container {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 10vh;
+    border-radius: 4px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ewa_ranking {
+    margin: auto 0;
+}
+
+.ewa_ranking h3 {
+    color: #242424;
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+}
+
+.ewa_ranking p {
+    /*margin: 0;*/
+    font-size: 11px;
+    color: #242423;
+    /*margin-top: 0.3rem;*/
+}
+
+.ewa_ranking div {
+    background-color: #242423;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    /*margin-top: 5px;*/
+    /*margin-top: 0.2rem;*/
+    text-align: center;
+}
+
+.ewa_point_score {
+    text-align: center;
+    background-color: #97a40c;
+    border-radius: 4px;
+    padding: 8px;
+    width: 80px;
+    height: 100px;
+}
+
+.ewa_point_score p {
+    font-size: 11px;
+    color: #242423;
+    font-weight: 500;
+    margin: 0;
+}
+
+.ewa_point_score .score {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    /*padding: 5px 10px;*/
+    text-align: center;
+}
+
+.fa-star {
+    color: #242423;
+    margin-top: 0.3rem;
+    transform: rotate(45deg);
+}
+
+.place_beans_order_container {
+    background-image: linear-gradient(90deg, #97a40c 50%, transparent), url("https://www.chatelaine.com/wp-content/uploads/2020/05/Cool-Beans_Nigerian-Stewed-Black-Eyed-Peas_1280x960-1.jpg");
+    background-position: 100%, center right;
+    background-size: 100%, 50%;
+    background-repeat: no-repeat, repeat-x;
+    padding: 20px;
+    min-height: 10vh;
+    border-radius: 4px;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.world_icon {
+    background-color: #242423;
+    padding: 2px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+}
+
+.fa-globe {
+    color: #fff;
+}
+
+.place-order-gibberish {
+    margin-left: 20px;
+}
+
+.place-order-gibberish h3 {
+    font-size: 14px;
+    color: #242423;
+    font-weight: bold;
+    margin-bottom: 1px !important;
+    margin-top: 0;
+}
+
+.place-order-gibberish p {
+    font-size: 11px;
+    color: #fff;
+    margin-bottom: 0.8rem;
+}
+
+.special_order_container {
+    background-image: linear-gradient(90deg, #fff 50%, transparent), url("https://cleangreensimple.com/wp-content/uploads/2020/12/canned-black-beans-04.jpg");
+    background-position: 100%, right;
+    background-size: 100%, 50%;
+    background-repeat: no-repeat, repeat-x;
+    padding: 20px;
+    min-height: 10vh;
+    border-radius: 4px;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.special_icon {
+    background-color: #242423;
+    padding: 2px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+}
+
+.fa-comment-dots {
+    color: #fff;
+}
+
+.special-order-gibberish {
+    margin-left: 20px;
+}
+
+.special-order-gibberish h3 {
+    font-size: 14px;
+    color: #242423;
+    font-weight: bold;
+    margin-bottom: 1px !important;
+    margin-top: 0;
+}
+
+.special-order-gibberish p {
+    font-size: 11px;
+    color: #242423;
+    margin-bottom: 0.8rem;
+}
